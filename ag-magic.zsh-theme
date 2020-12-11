@@ -144,7 +144,7 @@ function aws_prompt_info() {
 
 # primary prompt
 PS1='$FG[237]${(l.$(afmagic_dashes)..-.)} $(tf_prompt_info)$(aws_prompt_info)%F{yellow}%n@%m%{$reset_color%}
-%F{blue}%B%c$(git_prompt_info)$(hg_prompt_info) $FG[105]%(!.#.»)%{$reset_color%} '
+%F{blue}%B%c$(git_prompt_info) $FG[105]%(!.#.»)%{$reset_color%} '
 PS2='%{$fg[red]%}\ %{$reset_color%}'
 RPS1='${return_code}'
 
